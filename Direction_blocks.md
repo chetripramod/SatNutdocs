@@ -5,7 +5,7 @@
 1. [Move Drone Backward](#move_drone_backward)
 
 <div align="left" id="move_drone_backward">
-    <img src="./assets/move_drone_backward.png">
+    <img src="./assets/Move_drone_backward.png">
     <h4>Move drone backward at unspecified speed and distance.</h4>
 </div>
 
@@ -14,7 +14,7 @@
 2. [Move Drone Forward](#move_drone_forward)
 
 <div align="left" id="move_drone_forward">
-    <img src="./assets/move_drone_forward.png">
+    <img src="./assets/Move_drone_forward.png">
     <h4>Move drone forward at unspecified speed and distance.</h4>
 </div>
 
@@ -23,7 +23,7 @@
 3. [Move Drone Left](#move_drone_left)
 
 <div align="left" id="move_drone_left">
-    <img src="./assets/move_drone_left.png">
+    <img src="./assets/Move_drone_left.png">
     <h4>Move drone left at unspecified speed and distance.</h4>
 </div>
 
@@ -32,7 +32,7 @@
 4. [Move Drone Right](#move_drone_right)
 
 <div align="left" id="move_drone_right">
-    <img src="./assets/move_drone_right.png">
+    <img src="./assets/Move_drone_right.png">
     <h4>Move drone right at unspecified speed and distance.</h4>
 </div>
 
