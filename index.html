@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel = "icon" href="https://img.icons8.com/color/48/000000/drone-with-camera.png/" type="image/x-icon">
+    <!-- TODO: Update. -->
+    <title>SatNut's Block Help</title>
+    
+    <!-- TODO: Update. -->
+    <meta name="description" content="SatNut's Block Documentation">
+
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+    <style>
+        body{
+            background: #000;
+        }
+        section.cover.show {
+            height: 100%;
+        }
+        body:not(.ready){
+            overflow: visible !important;
+        }
+        .sidebar{
+            background: #000;
+        }
+        .sidebar ul li a{
+            font-size: 18px !important;
+            color: #FFF;
+        }
+        .sidebar>h1 a{
+            font-weight: 800;
+            font-size: 2rem;
+            color: #FFF;
+        }
+        .markdown-section a,.markdown-section ol, .markdown-section ul{
+            font-size: 1.4rem;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: #FFF !important;
+        }
+        .markdown-section h4{
+            color: #FFF;
+        }
+        li{
+            margin-top: 20px;
+        }
+        .anchor span {
+            color: #1b8dff;
+            text-transform: uppercase;
+        }
+        .search input{
+            display: block;
+            border: 2px solid #106DFF !important;
+        }
+
+    </style>
+    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+</head>
+
+<body>
+    
+    <div id="app"></div>
+
+    <script>
+        window.$docsify = {
+            name: 'SatNut\'s Block Documentation', 
+                coverpage: false,
+                loadSidebar: true,
+                subMaxLevel: 2,
+            alias: {
+                  '/.*/_sidebar.md': '/_sidebar.md',
+                    subMaxLevel: 1,
+                    sidebarDisplayLevel: 1, 
+                },
+            search: {
+                maxAge: 86400000, 
+                paths: 'auto',
+                placeholder: 'Search for blocks',
+                noData: 'No Results!',
+                depth: 6,
+                hideOtherSidebarContent: false,
+                }
+            }
+    </script>
+
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+    <!-- plugins -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- Docsify core -->
+    <!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+
+
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+   <!--  <script src="docsify.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
